@@ -1,0 +1,36 @@
+{
+  "plc": {
+    "host": "192.35.2.5",
+    "port": 502,
+    "slave_id": 1,
+    "timeout": 1.0
+  },
+  "hmi": {
+    "host": "192.35.2.10",
+    "port": 502,
+    "slave_id": 1,
+    "poll_interval_s": 30
+  },
+  "serial": {
+    "port": "/dev/ttyS0",
+    "baudrate": 9600,
+    "bytesize": 8,
+    "parity": "N",
+    "stopbits": 1,
+    "fans": [
+      1,
+      2
+    ]
+  },
+  "camera": {
+    "ip": "192.168.2.100",
+    "net_ip": "192.168.2.1",
+    "save_dir": "/userdata/camera",
+    "trigger_m": 100,
+    "trigger_d": 200
+  },
+  "app": {
+    "title": "全自动煎饼机",
+    "fullscreen": true
+  }
+}
