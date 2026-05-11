@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Docs - large files
+docs/MVS_STD_V3.01_251113/
+
+# Temp
+*.log
+*.swp
+*.swo
+*~
